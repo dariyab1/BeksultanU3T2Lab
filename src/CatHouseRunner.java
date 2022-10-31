@@ -2,12 +2,6 @@ public class CatHouseRunner {
     public static void main(String[] args) {
 
         // TASK 1: write your code here!
-        Cat cat1=new Cat("Jamie",8);
-        Cat cat2=new Cat("Frog",4);
-        CatHouse house1=new CatHouse(cat1, cat2, "Dariya");
-        System.out.println(house1.houseInfo());
-        house1.rollCall();
-        System.out.println(cat1.speak());
 
 
 
@@ -23,7 +17,7 @@ public class CatHouseRunner {
 
 
         // TASK 4: COMPLETE TEST CASES: uncomment the code below to fully test
-/*
+
     System.out.println("------- Test set 1 -------");
     Cat garfield = new Cat("Garfield", 5);
     Cat crookshanks = new Cat("Crookshanks", 6);
@@ -78,6 +72,6 @@ public class CatHouseRunner {
     sameCats.rollCall();
 
     sameCats.catNoise();
- */
     }
 }
+
